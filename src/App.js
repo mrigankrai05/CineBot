@@ -58,7 +58,7 @@ const SearchBar = ({ onSearch, isLoading }) => {
                     type="text"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Search by genre, movie, or TV show..."
+                    placeholder="Search by Genre, Movie, Artist or TV show..."
                     className="w-full px-5 py-3 sm:py-4 pr-12 text-base sm:text-lg bg-white border-2 border-slate-200 rounded-full focus:ring-4 focus:ring-blue-200 focus:border-blue-500 focus:outline-none transition-shadow duration-300"
                     disabled={isLoading}
                 />
